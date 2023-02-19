@@ -1,0 +1,162 @@
+li {
+    display:inline-block;
+    margin-right:5%; 
+    list-style: none;
+       
+  }
+  .nav-link {
+    color:Green;
+    padding:5px;
+    list-style: none;
+    text-decoration: none;
+
+    
+  }
+  
+  #nav-bar {
+    text-align:right;
+    position:fixed;
+    top:0;
+    right:0;
+    left:0;
+    background-color:#DFE0DA;
+    padding:10px;
+    border-bottom:1px solid black;
+    height:90px;   
+  }
+  
+  #video {
+    margin-top:80px;
+    display: flex;
+    justify-content: center;    
+  }
+  
+  section {
+    
+    margin-top: 130px;
+    margin-left:100px;
+  
+  }
+  
+  #submit {
+    margin-left:50%;
+  }
+  
+  #email {
+    margin-left: 43%;
+    width: 300px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  
+  .material-symbols-outlined {
+    margin-left:-40px;    
+    color: red;
+    margin-top: -85px;
+    
+  }
+  
+  
+    
+    
+  
+  
+  #header {
+   z-index:1;
+    color:black;
+    margin-top:20px;
+    position:relative;
+    font-size:20px;
+    }
+  
+  #header-img {
+    width:80px;
+    height:80px;
+    top:0;
+    z-index:99;
+    position:fixed;
+    }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  #submit {
+    padding: 0 20px;
+    height: 30px;
+    font-size:1em;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: 2px red solid;
+    border-radius:8px;
+    background: transparent;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 600px) {
+    header {
+      flex-wrap: wrap;
+    }
+}
+h2 {
+    color: red;
+}
+
+#productocuerpo {
+    font-style: italic;
+    color: black;
+    font-size: large;
+}
+#contactocuerpo {
+    font-style: italic;
+    color: black;
+    font-size: large;
+}
+.footer {
+   text-align: right;
+}
+.copyright {
+    text-align: right;
+    color: black;
+}
+#contacto {
+    margin-top: -150px;
+    
+}
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  
+  #ship .material-symbols-outlined {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    height: 125px;
+    width: 20vw;
+    color: darkorange;
+  }
+  #product .material-symbols-outlined {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    height: 125px;
+    width: 20vw;
+    color: darkorange;
+  }
+  #contact .material-symbols-outlined {
+    display:inline-block;
+    align-items: left;
+    justify-content: left;
+    height: 125px;
+    width: 20vw;
+    color: darkorange;
+    
+  }
+ 
